@@ -1,0 +1,50 @@
+{
+	"variables": {
+		"DOCKERHUB_PWD": "{{env `DOCKERHUB_PWD`}}",
+		"APP_NAME": "snapgene-daemon-4-DEV"
+	},
+	"builders": [
+		{
+			"type": "docker",
+			"image":"openjdk:11",
+			"commit": true,
+			"pull":true
+		}
+	],
+	"provisioners": [
+		{
+			"type": "file",
+			"source": "../resources/snapgene-license.xml",
+			"destination": "/snapgene-license.xml"
+		},
+		{
+			"type": "file",
+			"source": "../resources/docker-start.sh",
+			"destination": "/docker-start.sh"
+		},
+		{
+			"type": "shell",
+			"script": "provision-docker.sh"
+		}
+	],
+	"post-processors": [
+		[
+			{
+				"type": "docker-tag",
+				"repository": "rspaceops/rspace-services",
+				"tag": "{{user `APP_NAME`}}"
+			},
+			{
+				"type":"docker-push",
+				"login":true,
+				"login_username":"rspaceops",
+				"login_password":"{{user `DOCKERHUB_PWD`}}"
+			}
+		],
+		{
+			"type": "manifest",
+			"output": "manifest.json",
+			"strip_path": true
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+  "builds": [
+    {
+      "name": "docker",
+      "builder_type": "docker",
+      "build_time": 1582814779,
+      "files": null,
+      "artifact_id": "sha256:ae4b525e1a145f696db5e49fe01f060c8bebc3e4b6fe8a41c30da7ea9bcff6a1",
+      "packer_run_uuid": "bd14857d-d153-b240-3bb7-94d71e7e172b",
+      "custom_data": null
+    },
+    {
+      "name": "docker",
+      "builder_type": "docker",
+      "build_time": 1582815757,
+      "files": null,
+      "artifact_id": "sha256:45727bdace99980f6e68d7c156f93cfffed7523617a1d4cd401176499d458e68",
+      "packer_run_uuid": "d28f6b8e-9880-6987-3216-0c4b036ce51c",
+      "custom_data": null
+    },
+    {
+      "name": "docker",
+      "builder_type": "docker",
+      "build_time": 1582816000,
+      "files": null,
+      "artifact_id": "sha256:6b7ea8a0c903cf9078f9bfb2ef012467d11d8e03c438f5b7b178fca60ec85439",
+      "packer_run_uuid": "a90f4c22-82eb-2218-5080-bc5632c86497",
+      "custom_data": null
+    },
+    {
+      "name": "docker",
+      "builder_type": "docker",
+      "build_time": 1582816518,
+      "files": null,
+      "artifact_id": "sha256:a7b8fbd9551d5fd32d34888bd6815525ba490677a2d79d60351ff560c48b9a57",
+      "packer_run_uuid": "ef63234f-82a5-d87e-f81c-e1f1ef0fe586",
+      "custom_data": null
+    },
+    {
+      "name": "docker",
+      "builder_type": "docker",
+      "build_time": 1582816935,
+      "files": null,
+      "artifact_id": "sha256:eb49d94dd86e669b96213459660f003c8cc880e5906aa59132292621c50a2f21",
+      "packer_run_uuid": "53d9288d-f3b2-0b73-8eb6-0e060d36d284",
+      "custom_data": null
+    },
+    {
+      "name": "docker",
+      "builder_type": "docker",
+      "build_time": 1652885174,
+      "files": null,
+      "artifact_id": "sha256:ac1702f13cc3c37e1d01ed1ba46b677813892a7ce048dd4431ad2ecc5e0912be",
+      "packer_run_uuid": "bc4e2fbd-7f3f-8115-c556-e1709ab06fa4",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "bc4e2fbd-7f3f-8115-c556-e1709ab06fa4"
+}

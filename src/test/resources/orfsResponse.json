@@ -1,0 +1,103 @@
+{
+    "ORFs": [
+        {
+            "fullRangeBegin": 321,
+            "fullRangeEnd": 545,
+            "hitsStopCodon": true,
+            "id": 0,
+            "lacksStartCodon": false,
+            "molecularWeight": 8007.518599999999,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": 1,
+            "translation": "MEPETSLPFSLLPPPVTVPRKFYSAGELLLRPPCSNALPSITLRVKRKSCTRPSSPGMEKSRPSLAIIAGGRMS*"
+        },
+        {
+            "fullRangeBegin": 1603,
+            "fullRangeEnd": 2388,
+            "hitsStopCodon": true,
+            "id": 1,
+            "lacksStartCodon": false,
+            "molecularWeight": 30177.03012,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": 2,
+            "translation": "MGVRWRSRSKGSTGRHHGEQGRGAVHRGGAHPGRAGRRRKRPQVQRVRRGRGRCHLRQADPEVHLHHRQAARALAHPRDHPDLRRAVLQPLPRPHEAARLLQVRHARRLRPGAHHLLQGRRQLQDPRRGEVRGRHPGEPHRAEGHRLQGGRQHPGAQAGVQLQQPQRLYHGRQAEERHQGELQDPPQHRGRQRAARRPLPAEHPHRRRPRAAARQPLPEHPVQAEQRPQREARSHGPAGVRDRRRDHSRHGRAVQVKRPRL*"
+        },
+        {
+            "fullRangeBegin": 4477,
+            "fullRangeEnd": 7011,
+            "hitsStopCodon": true,
+            "id": 2,
+            "lacksStartCodon": false,
+            "molecularWeight": 92215.39824000001,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": 2,
+            "translation": "MTFPLLPAYASVAEFDNSLSLVGKAVFPYAADQLHNLIKFTQSTELQVNVQVESSVTEDQFEELIDNLLKLYNNGINEVILDLDLAERVVQRMIPGARVIYRTLVDKVASLPANASIAVPFSSPLGDLKSFTNGGSRTVYAFSETAKLVDVTSTVASGIIPIIDARQLTTEYELSEDVKKFPVSEILLASLTTDRPDGLFTTLVADSSNYSLGLVYSSKKSIPEAIRTQTGVYQSRRHGLWYKGATSGATQKLLGIELDCDGDCLKFVVEQTGVGFCHLERTSCFGQSKGLRAMEATLWDRKSNAPEGSYTKRLFDDEVLLNAKIREEADELAEAKSKEDIAWECADLFYFALVRCAKYGVTLDEVERNLDMKSLKVTRRKGDAKPGYTKEQPKEESKPKEVPSEGRIELCKIDVSKASSQEIEDALRRPIQKTEQIMELVKPIVDNVRQNGDKALLELTAKFDGVALKTPVLEAPFPEELMQLPDNVKRAIDLSIDNVRKFHEAQLTETLQVETCPGVVCSRFARPIEKVGLYIPGGTAILPSTSLMLGVPAKVAGRKEIVFASPPKKDGTLTPEVIYVAHKVGAKCIVLAGGAQAVAAMAYGTETVPKCDKIFGPGNQFVTAAKMMVQNDTSALCSIDMPAGPSEVLVIADKYADPDFVASDLLSQAEHGIDSQVILLAVDMTDKELARIEDAVHNQAVQLPRVEIVRKCIAHSTTLSVATYEQALEMSNQYAPEHLILQIENASSYVDQVQHAGSVFVGAYSPESCGDYSSGTNHTLPTYGYARQYSGVNTATFQKFITSQDVTPEGLKHIGQAVMDLAAVEGLDAHRNAVKVRMEKLGLI*"
+        },
+        {
+            "fullRangeBegin": 1652,
+            "fullRangeEnd": 2371,
+            "hitsStopCodon": true,
+            "id": 3,
+            "lacksStartCodon": false,
+            "molecularWeight": 26998.62368,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": 3,
+            "translation": "MVSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSKLSKDPNEKRDHMVLLEFVTAAGITLGMDELYK*"
+        },
+        {
+            "fullRangeBegin": 3647,
+            "fullRangeEnd": 3913,
+            "hitsStopCodon": true,
+            "id": 4,
+            "lacksStartCodon": false,
+            "molecularWeight": 9243.47064,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": 3,
+            "translation": "MIPRDPRSPAPDLSAINQPAGRAERRSGPATLSASIQSINCCREARVSSSPVNSLRNVVAIATGIVVSRSSFGMASFSSGSQRSRRVT*"
+        },
+        {
+            "fullRangeBegin": 1481,
+            "fullRangeEnd": 2422,
+            "hitsStopCodon": true,
+            "id": 5,
+            "lacksStartCodon": false,
+            "molecularWeight": 32056.862639999996,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": -1,
+            "translation": "*CLFFEGINTPSGAPRKTSIYQGNRTTIILDSQPLFVDLAFPLGSAFDILPIWRDGGHHALALLQEGPHHGDQDLQVAVYVAVLEAHGALALAIGGVALQGQLEDAGGALQGHGPGGEHGGQGVAHLAEAAVGVVHLLVVEELGGHGFAVDLLAGDEELVVAVVLGAGLHLELAVGQHVADLQLADVELLVAVDQPVLQLVVVVAVVDIDHGVLLLVADLHVELDAVVDLVAAHLEGVVVLLVGGDAVAGHQQGVVVVQAGLGLQAFVGVLLAIVHDQQLEHGGGPDSEAHVLQVLLAAAVRTELQLCALKKSM"
+        },
+        {
+            "fullRangeBegin": 1339,
+            "fullRangeEnd": 1593,
+            "hitsStopCodon": true,
+            "id": 6,
+            "lacksStartCodon": false,
+            "molecularWeight": 9430.7364,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": -2,
+            "translation": "*PCESQTLSTAHDGERKDFDYMAVAECSRVTNIQVLSPFDLLHSFCGKVFSFNGSTQQLALQDRLPFTNAMEPPSLLTVKHFSFM"
+        },
+        {
+            "fullRangeBegin": 3517,
+            "fullRangeEnd": 4377,
+            "hitsStopCodon": true,
+            "id": 7,
+            "lacksStartCodon": false,
+            "molecularWeight": 31557.359359999995,
+            "overlapRangeBegin": 0,
+            "overlapRangeEnd": 0,
+            "readingFrame": -2,
+            "translation": "*WHKILSAGIEAIQRNREDMTAQSGTTYIVVIRSPKGDPGLAAIIGRSGREGAGSKDAIFWGAPLASRLLPGAVKDAEMWDILQQRSALTLLEGTLLKRLTTAMAVPMTTDREDNPIAENLEPEWRDLRTVHDGMNHLFATLEKPGGITTLLLNAATNDSMTIAASCLERVTMGDTLHKETVPSYEVLDNQSYHIRRGLQEQGADIRSLVAGCLLVKFTSMMPFREEPRFSELIKGSNLDLEIYGVRAGLQDEADKVKVLTEPHAFVPLCFAAFFPILAVRFHQISM"
+        }
+    ],
+    "code": 0,
+    "response": "reportORFs",
+    "serverIndex": 1
+}
