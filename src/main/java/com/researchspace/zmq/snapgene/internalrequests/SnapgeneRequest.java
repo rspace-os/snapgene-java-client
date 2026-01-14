@@ -1,7 +1,7 @@
 package com.researchspace.zmq.snapgene.internalrequests;
 
 import org.apache.commons.io.FilenameUtils;
-import org.apache.commons.lang.Validate;
+import org.apache.commons.lang3.Validate;
 
 import com.researchspace.core.util.JacksonUtil;
 
