@@ -8,9 +8,8 @@ pipeline {
         jdk 'OPEN-JDK-11'
     }
     
-    parameters {            
+    parameters {
         booleanParam(name: 'CREATE_DOCKER_IMG', defaultValue: false, description: 'Run packer build to push image to Dockerhub')
-        booleanParam(name: 'ARTIFACTORY_DEPLOY', defaultValue: false, description: 'Package and Deploy to Artifactory')
     }
 
     environment {
@@ -73,23 +72,11 @@ pipeline {
                 '''
             }
             post {
-                success {             
+                success {
                     notify (currentBuild.result, "new Docker image ${DOCKERHUB_REPO}:${APP_NAME} on Dockerhub", "#release-notifications")
                 }
             }
         }
 
-        stage ('Package and Deploy to Artifactory') {
-            when {
-                anyOf {
-                    branch 'main'; branch 'master'
-                    expression { return params.ARTIFACTORY_DEPLOY}
-                }
-            }
-
-            steps {
-               deployToArtifactory()
-            }
-          }
     }//end stages
 }
