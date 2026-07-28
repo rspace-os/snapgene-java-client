@@ -1,3 +1,11 @@
+## 2.0.0
+- Upgrade to `rspace-parent` 3.0.0
+- Support for Spring 6 and Jakarta namespacing
+- Increment project major version
+
+## 1.0.3
+- Fixes issue with `GenerateSVGMapConfig` builder.
+
 ## 1.0.2
 - switch to parent-pom 2.1.3 (upgrades various dependencies)
 - move away from apache commons-lang dependency (use commons-lang3 instead)

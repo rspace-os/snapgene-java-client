@@ -5,7 +5,7 @@ pipeline {
     // these are defined in Jenkins global tool configurations
     tools {
         maven 'maven3.8.8'
-        jdk 'OPEN-JDK-11'
+        jdk 'OPEN-JDK-17'
     }
     
     parameters {
